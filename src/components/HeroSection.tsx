@@ -41,18 +41,7 @@ const HeroSection = () => {
           transition={{ delay: 1.2 }}
           className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4 sm:px-0"
         >
-          <a
-            href="/projects"
-            className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 rounded-lg font-accent text-xs sm:text-sm tracking-wider uppercase bg-primary text-primary-foreground hover:shadow-[0_0_30px_hsl(183_100%_50%/0.4)] transition-all duration-300"
-          >
-            View Projects
-          </a>
-          <a
-            href="/contact"
-            className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 rounded-lg font-accent text-xs sm:text-sm tracking-wider uppercase border border-primary/50 text-primary hover:bg-primary/10 transition-all duration-300"
-          >
-            Get in Touch
-          </a>
+         
         </motion.div>
 
       </div>
